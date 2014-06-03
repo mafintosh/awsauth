@@ -1,7 +1,7 @@
 {
   "name": "awsauth",
   "description": "ghauth for aws",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "dependencies": {
     "aws4": "^0.2.1",
