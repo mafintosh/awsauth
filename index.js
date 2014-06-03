@@ -61,7 +61,9 @@ var verify = function(opts, cb) {
 module.exports = function(opts, cb) {
   if (typeof opts === 'function') return module.exports('default', opts)
   if (typeof opts === 'string') opts = {profile:opts}
+  if (!opts) opts = {}
   if (opts.configName) opts.profile = opts.configName
+  if (!opts.profile) opts.profile = 'default'
 
   var file = opts.config || CONFIG
   var region = opts.region || 'us-east-1'
