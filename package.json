@@ -1,0 +1,28 @@
+{
+  "name": "awsauth",
+  "description": "[ghauth](https://github.com/rvagg/ghauth) but for aws",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "aws4": "^0.2.1",
+    "ini": "^1.2.1",
+    "mkdirp": "^0.5.0",
+    "read": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mafintosh/awsauth"
+  },
+  "keywords": [
+    "aws",
+    "auth",
+    "prompt",
+    "s3"
+  ],
+  "author": "Mathias Buus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/awsauth/issues"
+  },
+  "homepage": "https://github.com/mafintosh/awsauth"
+}
