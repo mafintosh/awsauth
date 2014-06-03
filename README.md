@@ -1,6 +1,6 @@
 # awsauth
 
-[ghauth](https://github.com/rvagg/ghauth) but for aws
+[ghauth](https://github.com/rvagg/ghauth) for aws
 
 ```
 npm install awsauth

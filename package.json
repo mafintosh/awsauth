@@ -1,6 +1,6 @@
 {
   "name": "awsauth",
-  "description": "[ghauth](https://github.com/rvagg/ghauth) but for aws",
+  "description": "ghauth for aws",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
