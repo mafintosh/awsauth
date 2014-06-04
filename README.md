@@ -44,7 +44,7 @@ and if not found it will prompt and then verify the keys. If the keys are verifi
 awsauth({
   profile: 'my-profile',
   verify: false, // skip the verification step
-  config: 'some-other-config-file-path' // use another config file,
+  config: 'some-other-config-file-path', // use another config file,
   region: 'eu-west-1' // change the default region
 }, function() {
   ...
